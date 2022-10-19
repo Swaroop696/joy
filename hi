@@ -1,0 +1,130 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+     
+    vector<string> v1{"Red","Green","Blue","Orange","Red","Yellow","Green","White","Black","Pink",
+"Pink", "Blue", "Red", "Green", "Red", "Black"};
+    set<string> s;
+    
+
+    vector <string>v2;
+    
+
+    for(int i=0;i<v1.size();i++)#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+     
+    vector<string> v1{"Red","Green","Blue","Orange","Red","Yellow","Green","White","Black","Pink",
+"Pink", "Blue", "Red", "Green", "Red", "Black"};
+    set<string> s;
+    
+
+    vector <string>v2;
+    
+
+    for(int i=0;i<v1.size();i++)
+    {
+        if((v1[i]=="Orange" || v1[i]=="Black"))
+        {
+            continue;
+        }
+        else if((v1[i]=="Blue" || v1[i]=="Pink"))
+        {
+            v2.push_back(v1[i]);
+        }
+        else
+        {
+           s.insert(v1[i]);
+        }
+    }
+   for(auto v: s)
+    {
+        v2.push_back(v);
+    }
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+     
+    vector<string> v1{"Red","Green","Blue","Orange","Red","Yellow","Green","White","Black","Pink",
+"Pink", "Blue", "Red", "Green", "Red", "Black"};
+    set<string> s;
+    
+
+    vector <string>v2;
+    
+
+    for(int i=0;i<v1.size();i++)
+    {
+        if((v1[i]=="Orange" || v1[i]=="Black"))
+        {
+            continue;
+        }
+        else if((v1[i]=="Blue" || v1[i]=="Pink"))
+        {
+            v2.push_back(v1[i]);
+        }
+        else
+        {
+           s.insert(v1[i]);
+        }
+    }
+   for(auto v: s)
+    {
+        v2.push_back(v);
+    }
+
+    sort(v2.begin(),v2.end());
+    for(auto x: v2)
+    {
+        cout<<x<<" ";
+    }
+    
+
+
+    return 0;
+}
+    sort(v2.begin(),v2.end());
+    for(auto x: v2)
+    {
+        cout<<x<<" ";
+    }
+    
+
+
+    return 0;
+}
+    {
+        if((v1[i]=="Orange" || v1[i]=="Black"))
+        {
+            continue;
+        }
+        else if((v1[i]=="Blue" || v1[i]=="Pink"))
+        {
+            v2.push_back(v1[i]);
+        }
+        else
+        {
+           s.insert(v1[i]);
+        }
+    }
+   for(auto v: s)
+    {
+        v2.push_back(v);
+    }
+
+    sort(v2.begin(),v2.end());
+    for(auto x: v2)
+    {
+        cout<<x<<" ";
+    }
+    
+
+
+    return 0;
+}
